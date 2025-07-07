@@ -97,14 +97,6 @@ The chatbot uses DeepSeek for:
 - **Embeddings**: Converting text to vector representations
 - **Chat Completion**: Generating responses based on retrieved context
 
-Configure the DeepSeek integration in your environment:
-
-```env
-DEEPSEEK_API_KEY=your_api_key
-DEEPSEEK_API_BASE_URL=https://api.deepseek.com/v1  # Optional
-DEEPSEEK_EMBED_MODEL=deepseek-embed                # Optional
-```
-
 ## Deployment
 
 ### Vercel

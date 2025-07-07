@@ -1,23 +1,6 @@
-<<<<<<< HEAD
-# Real Estate Chatbot
+# Real Estate Chatbot Demo (Ricacorp) #Abed Al Rahman #WYNI Tech
 
 A RAG (Retrieval-Augmented Generation) chatbot powered by Next.js and DeepSeek AI, designed to answer real estate questions using a comprehensive knowledge base.
-
-## Features
-
-- 🏠 **Real Estate Knowledge Base**: Comprehensive information about buying, selling, and investing in real estate
-- 🤖 **AI-Powered Responses**: Uses DeepSeek AI for intelligent, contextual answers
-- 🔍 **Vector Search**: Efficient similarity search using HNSWLib for relevant document retrieval
-- 📱 **Modern UI**: Built with Next.js, React, and Tailwind CSS
-- ⚡ **Fast Performance**: Optimized with Next.js 15 and Turbopack
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-- DeepSeek API key
 
 ### Installation
 
@@ -124,21 +107,12 @@ DEEPSEEK_EMBED_MODEL=deepseek-embed                # Optional
 
 ## Deployment
 
-### Vercel (Recommended)
+### Vercel
 
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Add environment variables in Vercel dashboard
 4. Deploy
-
-### Other Platforms
-
-For other platforms, ensure you:
-1. Install dependencies
-2. Process the knowledge base
-3. Set environment variables
-4. Build the application: `npm run build`
-5. Start the server: `npm start`
 
 ## Development
 
@@ -157,25 +131,3 @@ For other platforms, ensure you:
 - `npm run process-kb` - Process knowledge base
 - `npm run lint` - Run ESLint
 
-## Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [LangChain Documentation](https://docs.langchain.com/)
-- [DeepSeek API](https://platform.deepseek.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-MIT License - see LICENSE file for details.
-=======
-# realestate-chatbot
-A demo RAG web-app for our client Ricacorp
->>>>>>> e0ff74a7c27a0ccc44fb5e066a0b08472461c4dd

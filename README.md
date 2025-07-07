@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real Estate Chatbot
 
 A RAG (Retrieval-Augmented Generation) chatbot powered by Next.js and DeepSeek AI, designed to answer real estate questions using a comprehensive knowledge base.
@@ -174,3 +175,7 @@ For other platforms, ensure you:
 ## License
 
 MIT License - see LICENSE file for details.
+=======
+# realestate-chatbot
+A demo RAG web-app for our client Ricacorp
+>>>>>>> e0ff74a7c27a0ccc44fb5e066a0b08472461c4dd

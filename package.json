@@ -6,22 +6,31 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "process-kb": "tsx scripts/process-knowledge-base.ts",
+    "process-kb:watch": "tsx scripts/process-knowledge-base.ts --file=real-estate-knowledge.md",
+    "test-kb": "tsx scripts/test-knowledge-base.ts"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "axios": "^1.10.0",
+    "langchain": "^0.3.29",
+    "next": "15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "react-markdown": "^10.1.0",
+    "hnswlib-node": "^3.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "tsx": "^4.7.0"
   }
 }
